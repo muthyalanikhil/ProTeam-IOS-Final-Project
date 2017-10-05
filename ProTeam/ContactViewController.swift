@@ -10,6 +10,8 @@ import UIKit
 
 class ContactViewController: UIViewController {
 
+    @IBAction func newProjectBTN(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
