@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,7 +26,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="hYz-xc-gVX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Contact" id="Jvs-fK-J3V"/>
+                    <tabBarItem key="tabBarItem" title="Contact" image="contacts" id="Jvs-fK-J3V"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nMl-Rq-bt8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -140,7 +140,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Svq-gM-uBI"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Responsibilities" id="drN-5v-ovn"/>
+                    <tabBarItem key="tabBarItem" title="Responsibilities" image="Responsibilities" id="drN-5v-ovn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yww-Qk-GvR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -168,6 +168,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Responsibilities" width="25" height="25"/>
+        <image name="contacts" width="25" height="25"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
