@@ -1,5 +1,5 @@
 //
-//  ContactViewController.swift
+//  AddNewCellViewController.swift
 //  ProTeam
 //
 //  Created by Meier,Jesse A on 10/5/17.
@@ -8,10 +8,8 @@
 
 import UIKit
 
-class ContactViewController: UIViewController {
+class AddNewCellViewController: UIViewController {
 
-    @IBAction func newProjectBTN(_ sender: Any) {
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
