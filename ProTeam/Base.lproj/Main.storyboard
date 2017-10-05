@@ -82,7 +82,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Projects" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Projects" image="icons8-Project-25" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -337,7 +337,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="PIv-qr-7D1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="New" id="FFE-c4-0yE"/>
+                    <tabBarItem key="tabBarItem" title="New" image="icons8-Add-25" id="FFE-c4-0yE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DKa-L9-01v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -391,7 +391,8 @@
     <resources>
         <image name="Responsibilities" width="25" height="25"/>
         <image name="contacts" width="25" height="25"/>
-        <image name="first" width="30" height="30"/>
+        <image name="icons8-Add-25" width="25" height="25"/>
+        <image name="icons8-Project-25" width="25" height="25"/>
         <image name="second" width="30" height="30"/>
     </resources>
 </document>
