@@ -10,6 +10,27 @@ import UIKit
 
 class AddNewCellViewController: UIViewController {
 
+    @IBOutlet weak var ProjectNameTF: UITextField!
+    @IBOutlet weak var ClassTF: UITextField!
+    @IBOutlet weak var DueDateTF: UITextField!
+    @IBAction func NewProject(_ sender: Any) {
+    }
+    
+    @IBOutlet weak var DataTF: UITextField!
+    @IBOutlet weak var MemoTF: UITextField!
+    @IBOutlet weak var LocationTF: UITextField!
+    @IBAction func NewReminder(_ sender: Any) {
+    }
+    
+    @IBOutlet weak var ContactNameTF: UITextField!
+    @IBOutlet weak var EmailTF: UITextField!
+    @IBOutlet weak var PhoneNumTF: UITextField!
+    @IBAction func NewContact(_ sender: Any) {
+    }
+    @IBOutlet weak var PartnerNameTF: UITextField!
+    @IBOutlet weak var ResponseTF: UITextField!
+    @IBAction func NewResponse(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
