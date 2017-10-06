@@ -13,6 +13,10 @@
 		3DFC0D321F86E6D200687865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC0D301F86E6D200687865 /* Main.storyboard */; };
 		3DFC0D341F86E6D200687865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC0D331F86E6D200687865 /* Assets.xcassets */; };
 		3DFC0D371F86E6D200687865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC0D351F86E6D200687865 /* LaunchScreen.storyboard */; };
+		511389A11F87ED9F00573D52 /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A01F87ED9F00573D52 /* ProjectModel.swift */; };
+		511389A31F87EE4500573D52 /* DatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A21F87EE4500573D52 /* DatesModel.swift */; };
+		511389A51F87EE5200573D52 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A41F87EE5200573D52 /* ContactModel.swift */; };
+		511389A71F87EE5E00573D52 /* ResponsibilitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */; };
 		5143AB3D1F86F1A900AB941E /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB3C1F86F1A900AB941E /* ContactViewController.swift */; };
 		5143AB3F1F86F1FF00AB941E /* ResponsibilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */; };
 		5143AB411F86F6BE00AB941E /* AddNewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB401F86F6BE00AB941E /* AddNewCellViewController.swift */; };
@@ -27,6 +31,10 @@
 		3DFC0D331F86E6D200687865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DFC0D361F86E6D200687865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DFC0D381F86E6D200687865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		511389A01F87ED9F00573D52 /* ProjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
+		511389A21F87EE4500573D52 /* DatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesModel.swift; sourceTree = "<group>"; };
+		511389A41F87EE5200573D52 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsibilitiesModel.swift; sourceTree = "<group>"; };
 		5143AB3C1F86F1A900AB941E /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsibilitiesViewController.swift; sourceTree = "<group>"; };
 		5143AB401F86F6BE00AB941E /* AddNewCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCellViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +76,10 @@
 				5143AB3C1F86F1A900AB941E /* ContactViewController.swift */,
 				5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */,
 				5143AB401F86F6BE00AB941E /* AddNewCellViewController.swift */,
+				511389A01F87ED9F00573D52 /* ProjectModel.swift */,
+				511389A21F87EE4500573D52 /* DatesModel.swift */,
+				511389A41F87EE5200573D52 /* ContactModel.swift */,
+				511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */,
 				3DFC0D301F86E6D200687865 /* Main.storyboard */,
 				3DFC0D331F86E6D200687865 /* Assets.xcassets */,
 				3DFC0D351F86E6D200687865 /* LaunchScreen.storyboard */,
@@ -150,10 +162,14 @@
 			files = (
 				3DFC0D2F1F86E6D200687865 /* ImportantDatesController.swift in Sources */,
 				5143AB3D1F86F1A900AB941E /* ContactViewController.swift in Sources */,
+				511389A51F87EE5200573D52 /* ContactModel.swift in Sources */,
+				511389A11F87ED9F00573D52 /* ProjectModel.swift in Sources */,
 				5143AB3F1F86F1FF00AB941E /* ResponsibilitiesViewController.swift in Sources */,
 				3DFC0D2B1F86E6D200687865 /* AppDelegate.swift in Sources */,
+				511389A31F87EE4500573D52 /* DatesModel.swift in Sources */,
 				3DFC0D2D1F86E6D200687865 /* ProjectsViewController.swift in Sources */,
 				5143AB411F86F6BE00AB941E /* AddNewCellViewController.swift in Sources */,
+				511389A71F87EE5E00573D52 /* ResponsibilitiesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
