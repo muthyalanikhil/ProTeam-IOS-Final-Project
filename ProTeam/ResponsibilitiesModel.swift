@@ -7,3 +7,9 @@
 //
 
 import Foundation
+class Responsibilities{
+    var responsibility:String
+    init(responsibility:String){
+        self.responsibility = responsibility
+    }
+}
