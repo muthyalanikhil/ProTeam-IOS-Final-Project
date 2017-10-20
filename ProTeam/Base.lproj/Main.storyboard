@@ -438,7 +438,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Reminder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFK-VL-Wnc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFK-VL-Wnc">
                                 <rect key="frame" x="25" y="163" width="316" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -472,10 +472,12 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="New" image="icons8-Add-25" id="FFE-c4-0yE"/>
                     <connections>
+                        <outlet property="ClassTF" destination="M5h-0t-Tmv" id="9K0-sA-W07"/>
                         <outlet property="ClassTextBox" destination="M5h-0t-Tmv" id="NH7-MA-0LX"/>
                         <outlet property="ContactNameTF" destination="f41-F3-d74" id="QBr-iX-tLW"/>
                         <outlet property="DataTF" destination="iiw-gD-1Mk" id="8Fh-kY-IO4"/>
                         <outlet property="DataTextBox" destination="iiw-gD-1Mk" id="h9Q-BW-4rn"/>
+                        <outlet property="DueDateTF" destination="taA-k2-kR6" id="1rr-KI-J2G"/>
                         <outlet property="DueDateTextBox" destination="taA-k2-kR6" id="Uep-U1-gMx"/>
                         <outlet property="EmailTF" destination="nwf-A2-013" id="dgS-t2-52u"/>
                         <outlet property="LocationTF" destination="CRy-3S-Jm3" id="fbq-wp-1Es"/>
@@ -483,6 +485,7 @@
                         <outlet property="NameTextBox" destination="oc4-BB-qlI" id="mOu-YZ-uSp"/>
                         <outlet property="PartnerNameTF" destination="4fK-3Q-0qG" id="Rty-n2-ztf"/>
                         <outlet property="PhoneNumTF" destination="xCK-FG-4dM" id="Gmw-PW-iBa"/>
+                        <outlet property="ProjectNameTF" destination="oc4-BB-qlI" id="xwi-Yq-F7K"/>
                         <outlet property="ResponseTF" destination="ohe-Uv-RUb" id="tMv-du-o1l"/>
                     </connections>
                 </viewController>
