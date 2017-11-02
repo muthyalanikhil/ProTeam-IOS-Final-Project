@@ -10,7 +10,11 @@ import Foundation
 
 class date {
     var date: String
-    init(date:String){
+    var memo: String
+    var location: String
+    init(date:String,memo:String,location:String){
         self.date = date
+        self.memo = memo
+        self.location = location
     }
 }
