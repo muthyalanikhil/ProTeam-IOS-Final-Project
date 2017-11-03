@@ -1,32 +1,15 @@
 //
-//  AddNewCellViewController.swift
+//  ContactsViewController.swift
 //  ProTeam
 //
-//  Created by Meier,Jesse A on 10/5/17.
+//  Created by Meier,Jesse A on 11/2/17.
 //  Copyright © 2017 Picklo,Blake H. All rights reserved.
 //
 
 import UIKit
 
-class AddNewCellViewController: UIViewController {
+class ContactsViewController: UIViewController {
 
-    @IBOutlet weak var ProjectNameTF: UITextField!
-    @IBOutlet weak var ClassTF: UITextField!
-    @IBOutlet weak var DueDateTF: UITextField!
-    @IBAction func NewProject(_ sender: Any) {
-    }
-    
-    @IBOutlet weak var DataTF: UITextField!
-    @IBOutlet weak var MemoTF: UITextField!
-    @IBOutlet weak var LocationTF: UITextField!
-    @IBAction func NewReminder(_ sender: Any) {
-    }
-    
-
-    @IBOutlet weak var PartnerNameTF: UITextField!
-    @IBOutlet weak var ResponseTF: UITextField!
-    @IBAction func NewResponse(_ sender: Any) {
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

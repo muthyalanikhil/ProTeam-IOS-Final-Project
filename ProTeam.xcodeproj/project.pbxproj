@@ -20,7 +20,7 @@
 		511389A31F87EE4500573D52 /* DatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A21F87EE4500573D52 /* DatesModel.swift */; };
 		511389A51F87EE5200573D52 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A41F87EE5200573D52 /* ContactModel.swift */; };
 		511389A71F87EE5E00573D52 /* ResponsibilitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */; };
-		5143AB3D1F86F1A900AB941E /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB3C1F86F1A900AB941E /* ContactViewController.swift */; };
+		5143AB3D1F86F1A900AB941E /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB3C1F86F1A900AB941E /* NewContactViewController.swift */; };
 		5143AB3F1F86F1FF00AB941E /* ResponsibilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */; };
 		5143AB411F86F6BE00AB941E /* AddNewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB401F86F6BE00AB941E /* AddNewCellViewController.swift */; };
 		DD5A92451FABDFC00050278D /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A92441FABDFC00050278D /* ProjectTableViewCell.swift */; };
@@ -42,9 +42,11 @@
 		511389A21F87EE4500573D52 /* DatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesModel.swift; sourceTree = "<group>"; };
 		511389A41F87EE5200573D52 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 		511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsibilitiesModel.swift; sourceTree = "<group>"; };
-		5143AB3C1F86F1A900AB941E /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		5143AB3C1F86F1A900AB941E /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
 		5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsibilitiesViewController.swift; sourceTree = "<group>"; };
 		5143AB401F86F6BE00AB941E /* AddNewCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCellViewController.swift; sourceTree = "<group>"; };
+		51C5F6AA1FABE8590093804F /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		51C5F6AE1FABE9C50093804F /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		DD5A92421FABDE030050278D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		DD5A92441FABDFC00050278D /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
 		DD5A92461FABE0020050278D /* ProjectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewController.swift; sourceTree = "<group>"; };
@@ -83,9 +85,11 @@
 				3DFC0D2A1F86E6D200687865 /* AppDelegate.swift */,
 				3DFC0D2C1F86E6D200687865 /* ProjectsViewController.swift */,
 				3DFAAF1F1FABE49400A69BB7 /* DateTableViewController.swift */,
-				5143AB3C1F86F1A900AB941E /* ContactViewController.swift */,
+				5143AB3C1F86F1A900AB941E /* NewContactViewController.swift */,
+				51C5F6AE1FABE9C50093804F /* ContactsTableViewController.swift */,
 				5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */,
 				5143AB401F86F6BE00AB941E /* AddNewCellViewController.swift */,
+				51C5F6AA1FABE8590093804F /* ContactList.swift */,
 				511389A01F87ED9F00573D52 /* ProjectModel.swift */,
 				511389A21F87EE4500573D52 /* DatesModel.swift */,
 				3DFAAF1D1FABE43000A69BB7 /* DateList.swift */,
@@ -176,7 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5143AB3D1F86F1A900AB941E /* ContactViewController.swift in Sources */,
+				5143AB3D1F86F1A900AB941E /* NewContactViewController.swift in Sources */,
 				511389A51F87EE5200573D52 /* ContactModel.swift in Sources */,
 				3DFAAF201FABE49400A69BB7 /* DateTableViewController.swift in Sources */,
 				3DFAAF1C1FABE0E100A69BB7 /* DateTableViewCell.swift in Sources */,
@@ -185,6 +189,7 @@
 				5143AB3F1F86F1FF00AB941E /* ResponsibilitiesViewController.swift in Sources */,
 				3DFAAF1A1FABDF1600A69BB7 /* AddDateViewController.swift in Sources */,
 				3DFC0D2B1F86E6D200687865 /* AppDelegate.swift in Sources */,
+				51C5F6AB1FABE8590093804F /* ContactList.swift in Sources */,
 				DD5A92451FABDFC00050278D /* ProjectTableViewCell.swift in Sources */,
 				511389A31F87EE4500573D52 /* DatesModel.swift in Sources */,
 				3DFC0D2D1F86E6D200687865 /* ProjectsViewController.swift in Sources */,
