@@ -9,15 +9,19 @@
 import Foundation
 
 class DateList {
-    static var ListOfDates:[Date] = [
-        Date(date: "11/2/2017",memo:"Lets make this pro team",location:"Colden Hall")
+    
+    static var ListOfDates:[Dates] = [
+        Dates(date: "11/2/2017",memo:"Lets make this pro team",location:"Colden Hall")
     ]
     
     
     static func numDates()-> Int {
         return ListOfDates.count
     }
-    static func Date(_ index:Int) -> Date {
+    static func DateNum(_ index:Int) -> Dates {
         return ListOfDates[index]
+    }
+    static func addNewDate(_ Da:Dates) -> Void {
+        ListOfDates.append(Da)
     }
 }

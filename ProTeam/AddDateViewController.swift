@@ -10,6 +10,19 @@ import UIKit
 
 class AddDateViewController: UIViewController {
 
+    @IBOutlet weak var DateTF: UITextField!
+    @IBOutlet weak var MemoTF: UITextField!
+    @IBOutlet weak var LocationTF: UITextField!
+    
+    
+    @IBAction func Cancel(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    @IBAction func Done(_ sender: Any) {
+        let temp = Dates(date: DateTF.text!, memo: MemoTF.text!, location: LocationTF.text!)
+        DateList.addNewDate(temp)
+        dismiss(animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,15 +34,5 @@ class AddDateViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

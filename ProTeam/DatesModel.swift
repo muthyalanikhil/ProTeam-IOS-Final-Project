@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Date {
+class Dates {
     var date: String
     var memo: String
     var location: String
