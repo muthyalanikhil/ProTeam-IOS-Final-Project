@@ -10,6 +10,18 @@ import UIKit
 
 class NewContactViewController: UIViewController {
     
+    @IBOutlet weak var nameTF: UITextField!
+    @IBOutlet weak var emailTF: UITextField!
+    @IBOutlet weak var pNumTF: UITextField!
+    @IBAction func cancelBTN(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    @IBAction func DoneBTN(_ sender: Any) {
+        let temp = Contact(name: nameTF.text!, PhoneNumber: pNumTF.text!, email: emailTF.text!)
+        contactsList.addNewContact(temp)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
