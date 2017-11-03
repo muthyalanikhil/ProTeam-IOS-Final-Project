@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProjectTableViewController: UITableViewController {
+class ProjectTableViewController: UITableViewController, = {
 
     override func viewDidLoad() {
         
