@@ -18,7 +18,7 @@ class NewContactViewController: UIViewController {
     }
     @IBAction func DoneBTN(_ sender: Any) {
         let temp = Contact(name: nameTF.text!, PhoneNumber: pNumTF.text!, email: emailTF.text!)
-        contactsList.addNewContact(temp)
+        ContactsList.addNewContact(temp)
         self.dismiss(animated: true, completion: nil)
     }
     

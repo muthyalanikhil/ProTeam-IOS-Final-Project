@@ -8,7 +8,7 @@
 
 import Foundation
 
-class contactsList {
+class ContactsList {
     static var contacts:[Contact] = [Contact(name:"name", PhoneNumber:"124567891", email:"151548@gmail.com")]
     
     static func numContacts() -> Int {

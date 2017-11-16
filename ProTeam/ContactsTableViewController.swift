@@ -29,12 +29,12 @@ class ContactsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return contactsList.numContacts()
+        return ContactsList.numContacts()
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "contact_list", for: indexPath)
-        let contact = contactsList.contactNum(indexPath.row)
+        let contact = ContactsList.contactNum(indexPath.row)
         cell.textLabel?.text = contact.name
         cell.detailTextLabel?.text = "P: \(contact.PhoneNumber) E: \(contact.email)"
 
