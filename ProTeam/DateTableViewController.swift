@@ -33,7 +33,7 @@ class DateTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Date_cell", for: indexPath)
         let Date = DateList.DateNum(indexPath.row)
         cell.textLabel?.text = Date.date
-        cell.textLabel?.text = Date.memo
+        cell.detailTextLabel?.text = Date.memo
 
         return cell
     }
