@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -119,10 +119,10 @@
             </objects>
             <point key="canvasLocation" x="919" y="1283"/>
         </scene>
-        <!--View Controller-->
+        <!--Specific Contact View Controller-->
         <scene sceneID="BTl-9o-tZY">
             <objects>
-                <viewController id="Ttd-hJ-4nf" sceneMemberID="viewController">
+                <viewController id="Ttd-hJ-4nf" customClass="SpecificContactViewController" customModule="ProTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Imj-Ia-LmQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -174,6 +174,11 @@
                         <viewLayoutGuide key="safeArea" id="ZFW-TK-5BE"/>
                     </view>
                     <navigationItem key="navigationItem" id="4p3-4i-YsX"/>
+                    <connections>
+                        <outlet property="emailLBL" destination="eRz-gF-Jwg" id="wNl-gg-EI4"/>
+                        <outlet property="nameLBL" destination="qoP-j6-YfD" id="p7M-Rv-PQf"/>
+                        <outlet property="phoneLBL" destination="Vfq-Wu-9Hp" id="NfA-T7-Cyi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X9G-eu-Vdc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
