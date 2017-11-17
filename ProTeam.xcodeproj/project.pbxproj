@@ -11,6 +11,7 @@
 		128C38BE1FBDFBE4007C66E7 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C5F6AE1FABE9C50093804F /* ContactsTableViewController.swift */; };
 		128C38BF1FBDFBE4007C66E7 /* ContactsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C5F6AA1FABE8590093804F /* ContactsList.swift */; };
 		128C38C01FBDFBE4007C66E7 /* ProjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A92461FABE0020050278D /* ProjectTableViewController.swift */; };
+		3D63C9C71FBF990300410F44 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A92421FABDE030050278D /* Data.swift */; };
 		3DFAAF1A1FABDF1600A69BB7 /* AddDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAAF191FABDF1600A69BB7 /* AddDateViewController.swift */; };
 		3DFAAF1C1FABE0E100A69BB7 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAAF1B1FABE0E100A69BB7 /* DateTableViewCell.swift */; };
 		3DFAAF1E1FABE43000A69BB7 /* DateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAAF1D1FABE43000A69BB7 /* DateList.swift */; };
@@ -68,6 +69,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D63C9C51FBF986B00410F44 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A92461FABE0020050278D /* ProjectTableViewController.swift */,
+				DD5A92441FABDFC00050278D /* ProjectTableViewCell.swift */,
+				511389A01F87ED9F00573D52 /* ProjectModel.swift */,
+				3DFC0D2C1F86E6D200687865 /* ProjectsViewController.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		3D63C9C61FBF98E200410F44 /* Dates */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A92421FABDE030050278D /* Data.swift */,
+				3DFAAF191FABDF1600A69BB7 /* AddDateViewController.swift */,
+				3DFAAF1B1FABE0E100A69BB7 /* DateTableViewCell.swift */,
+				3DFAAF1D1FABE43000A69BB7 /* DateList.swift */,
+				511389A21F87EE4500573D52 /* DatesModel.swift */,
+				3DFAAF1F1FABE49400A69BB7 /* DateTableViewController.swift */,
+			);
+			path = Dates;
+			sourceTree = "<group>";
+		};
+		3D63C9C81FBF993300410F44 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				518D00281FBF91E1006896C0 /* SpecificContactViewController.swift */,
+				511389A41F87EE5200573D52 /* ContactModel.swift */,
+				51C5F6B01FABEF8E0093804F /* ContactsTableViewCell.swift */,
+				5143AB3C1F86F1A900AB941E /* NewContactViewController.swift */,
+				51C5F6AE1FABE9C50093804F /* ContactsTableViewController.swift */,
+				51C5F6AA1FABE8590093804F /* ContactsList.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		3D63C9C91FBF998100410F44 /* Respons */ = {
+			isa = PBXGroup;
+			children = (
+				511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */,
+				5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */,
+			);
+			path = Respons;
+			sourceTree = "<group>";
+		};
 		3DFC0D1E1F86E6D200687865 = {
 			isa = PBXGroup;
 			children = (
@@ -87,29 +134,15 @@
 		3DFC0D291F86E6D200687865 /* ProTeam */ = {
 			isa = PBXGroup;
 			children = (
-				3DFC0D2A1F86E6D200687865 /* AppDelegate.swift */,
-				3DFC0D2C1F86E6D200687865 /* ProjectsViewController.swift */,
-				3DFAAF1F1FABE49400A69BB7 /* DateTableViewController.swift */,
-				51C5F6B01FABEF8E0093804F /* ContactsTableViewCell.swift */,
-				5143AB3C1F86F1A900AB941E /* NewContactViewController.swift */,
-				51C5F6AE1FABE9C50093804F /* ContactsTableViewController.swift */,
-				5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */,
-				51C5F6AA1FABE8590093804F /* ContactsList.swift */,
-				511389A01F87ED9F00573D52 /* ProjectModel.swift */,
-				511389A21F87EE4500573D52 /* DatesModel.swift */,
-				3DFAAF1D1FABE43000A69BB7 /* DateList.swift */,
-				511389A41F87EE5200573D52 /* ContactModel.swift */,
-				3DFAAF191FABDF1600A69BB7 /* AddDateViewController.swift */,
-				511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */,
+				3D63C9C91FBF998100410F44 /* Respons */,
+				3D63C9C81FBF993300410F44 /* Contact */,
+				3D63C9C61FBF98E200410F44 /* Dates */,
+				3D63C9C51FBF986B00410F44 /* Projects */,
 				3DFC0D301F86E6D200687865 /* Main.storyboard */,
-				518D00281FBF91E1006896C0 /* SpecificContactViewController.swift */,
-				3DFAAF1B1FABE0E100A69BB7 /* DateTableViewCell.swift */,
+				3DFC0D2A1F86E6D200687865 /* AppDelegate.swift */,
 				3DFC0D331F86E6D200687865 /* Assets.xcassets */,
 				3DFC0D351F86E6D200687865 /* LaunchScreen.storyboard */,
 				3DFC0D381F86E6D200687865 /* Info.plist */,
-				DD5A92421FABDE030050278D /* Data.swift */,
-				DD5A92441FABDFC00050278D /* ProjectTableViewCell.swift */,
-				DD5A92461FABE0020050278D /* ProjectTableViewController.swift */,
 			);
 			path = ProTeam;
 			sourceTree = "<group>";
@@ -202,6 +235,7 @@
 				3DFC0D2B1F86E6D200687865 /* AppDelegate.swift in Sources */,
 				DD5A92451FABDFC00050278D /* ProjectTableViewCell.swift in Sources */,
 				511389A31F87EE4500573D52 /* DatesModel.swift in Sources */,
+				3D63C9C71FBF990300410F44 /* Data.swift in Sources */,
 				3DFC0D2D1F86E6D200687865 /* ProjectsViewController.swift in Sources */,
 				511389A71F87EE5E00573D52 /* ResponsibilitiesModel.swift in Sources */,
 			);
