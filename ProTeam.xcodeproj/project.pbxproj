@@ -26,6 +26,7 @@
 		511389A71F87EE5E00573D52 /* ResponsibilitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */; };
 		5143AB3D1F86F1A900AB941E /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB3C1F86F1A900AB941E /* NewContactViewController.swift */; };
 		5143AB3F1F86F1FF00AB941E /* ResponsibilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */; };
+		518D00291FBF91E1006896C0 /* SpecificContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D00281FBF91E1006896C0 /* SpecificContactViewController.swift */; };
 		DD5A92451FABDFC00050278D /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A92441FABDFC00050278D /* ProjectTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsibilitiesModel.swift; sourceTree = "<group>"; };
 		5143AB3C1F86F1A900AB941E /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
 		5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsibilitiesViewController.swift; sourceTree = "<group>"; };
+		518D00281FBF91E1006896C0 /* SpecificContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificContactViewController.swift; sourceTree = "<group>"; };
 		51C5F6AA1FABE8590093804F /* ContactsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsList.swift; sourceTree = "<group>"; };
 		51C5F6AE1FABE9C50093804F /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		51C5F6B01FABEF8E0093804F /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				3DFAAF191FABDF1600A69BB7 /* AddDateViewController.swift */,
 				511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */,
 				3DFC0D301F86E6D200687865 /* Main.storyboard */,
+				518D00281FBF91E1006896C0 /* SpecificContactViewController.swift */,
 				3DFAAF1B1FABE0E100A69BB7 /* DateTableViewCell.swift */,
 				3DFC0D331F86E6D200687865 /* Assets.xcassets */,
 				3DFC0D351F86E6D200687865 /* LaunchScreen.storyboard */,
@@ -194,6 +197,7 @@
 				511389A11F87ED9F00573D52 /* ProjectModel.swift in Sources */,
 				3DFAAF1E1FABE43000A69BB7 /* DateList.swift in Sources */,
 				5143AB3F1F86F1FF00AB941E /* ResponsibilitiesViewController.swift in Sources */,
+				518D00291FBF91E1006896C0 /* SpecificContactViewController.swift in Sources */,
 				3DFAAF1A1FABDF1600A69BB7 /* AddDateViewController.swift in Sources */,
 				3DFC0D2B1F86E6D200687865 /* AppDelegate.swift in Sources */,
 				DD5A92451FABDFC00050278D /* ProjectTableViewCell.swift in Sources */,

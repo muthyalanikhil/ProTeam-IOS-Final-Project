@@ -9,7 +9,7 @@
 import Foundation
 
 class ContactsList {
-    static var contacts:[Contact] = [Contact(name:"name", PhoneNumber:"124567891", email:"151548@gmail.com")]
+    static var contacts:[Contact] = [Contact(name:"Jesse Meier", PhoneNumber:"6605286971", email:"s518807@nwmissouri.com"), Contact(name:"Blake Picklo", PhoneNumber: "6605824514", email:"s578433@nwmissouri.edu"), Contact(name:"Nikhil Muthyala", PhoneNumber:"6602541548", email:"s458428@nwmissouri.edu")]
     
     static func numContacts() -> Int {
         return contacts.count
