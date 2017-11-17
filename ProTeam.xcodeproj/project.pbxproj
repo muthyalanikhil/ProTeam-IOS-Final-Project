@@ -89,6 +89,7 @@
 				3DFAAF191FABDF1600A69BB7 /* AddDateViewController.swift */,
 				3DFAAF1B1FABE0E100A69BB7 /* DateTableViewCell.swift */,
 				3DFAAF1D1FABE43000A69BB7 /* DateList.swift */,
+				3D63C9CA1FBF9A8600410F44 /* DateInfoViewController.swift */,
 				511389A21F87EE4500573D52 /* DatesModel.swift */,
 				3DFAAF1F1FABE49400A69BB7 /* DateTableViewController.swift */,
 			);
@@ -141,7 +142,6 @@
 				3D63C9C61FBF98E200410F44 /* Dates */,
 				3D63C9C51FBF986B00410F44 /* Projects */,
 				3DFC0D301F86E6D200687865 /* Main.storyboard */,
-				3D63C9CA1FBF9A8600410F44 /* DateInfoViewController.swift */,
 				3DFC0D2A1F86E6D200687865 /* AppDelegate.swift */,
 				3DFC0D331F86E6D200687865 /* Assets.xcassets */,
 				3DFC0D351F86E6D200687865 /* LaunchScreen.storyboard */,
