@@ -11,7 +11,11 @@ import Foundation
 class DateList {
     
     static var ListOfDates:[Dates] = [
-        Dates(date: "11/2/2017",memo:"Lets make this pro team",location:"Colden Hall")
+        Dates(date: "9/15/2017",memo:"Lets make this pro team",location:"Colden Hall"),
+        Dates(date: "9/29/2017",memo:"dig a hole",location:"Library"),
+        Dates(date: "10/2/2017",memo:"dig a hole",location:"Colden Hall"),
+        Dates(date: "10/11/2017",memo:"dig a hole",location:"Home"),
+        Dates(date: "11/2/2017",memo:"getting somewhere",location:"Computer Lab")
     ]
     
     
