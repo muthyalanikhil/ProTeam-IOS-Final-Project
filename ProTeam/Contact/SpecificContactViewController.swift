@@ -16,7 +16,7 @@ class SpecificContactViewController: UIViewController {
     @IBOutlet weak var emailLBL: UILabel!
     
     override func viewWillAppear(_ animated: Bool) {
-        nameLBL.text = "\(contact.name)"
+//        nameLBL.text = contact.name
     }
     
     
