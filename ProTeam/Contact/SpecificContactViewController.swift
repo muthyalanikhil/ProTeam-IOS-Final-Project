@@ -16,12 +16,15 @@ class SpecificContactViewController: UIViewController {
     @IBOutlet weak var emailLBL: UILabel!
     
     override func viewWillAppear(_ animated: Bool) {
-//        nameLBL.text = contact.name
+        nameLBL.text = contact.name
+        phoneLBL.text = contact.PhoneNumber
+        emailLBL.text = contact.email
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = contact.name
     }
 
     override func didReceiveMemoryWarning() {
