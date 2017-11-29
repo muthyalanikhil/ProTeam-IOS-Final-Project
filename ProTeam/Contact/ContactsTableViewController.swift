@@ -38,11 +38,9 @@ class ContactsTableViewController: UITableViewController {
 
         return cell
     }
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "Specific_Contact_View_Controller" {
-//            let contactVC = segue.destination as! SpecificContactViewController
-//            contactVC.contact = ContactsList.name
-//        }
-//    }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let contactVC = segue.destination as! SpecificContactViewController
+        contactVC.contact = ContactsList.contacts[(tableView.indexPathForSelectedRow?.row)!]
+    }
 }
