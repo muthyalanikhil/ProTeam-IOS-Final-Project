@@ -9,13 +9,27 @@
 import UIKit
 
 class DateInfoViewController: UIViewController {
+    var date:Dates!
+
+    @IBOutlet weak var ProjectLBL: UILabel!
+    @IBOutlet weak var DateLBL: UILabel!
+    @IBOutlet weak var MemoLBL: UILabel!
+    @IBOutlet weak var LocationLBL: UILabel!
+    @IBOutlet weak var TimeLBL: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    override func viewWillAppear(_ animated: Bool) {
+        ProjectLBL.text! = date.project
+        DateLBL.text! = date.date
+        MemoLBL.text! = date.memo
+        LocationLBL.text! = date.location
+        TimeLBL.text! = date.time
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

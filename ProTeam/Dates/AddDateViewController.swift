@@ -10,16 +10,19 @@ import UIKit
 
 class AddDateViewController: UIViewController {
 
+    @IBOutlet weak var ProjectTF: UITextField!
     @IBOutlet weak var DateTF: UITextField!
     @IBOutlet weak var MemoTF: UITextField!
     @IBOutlet weak var LocationTF: UITextField!
+    @IBOutlet weak var TimeTF: UITextField!
+    
     
     
     @IBAction func Cancel(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
     @IBAction func Done(_ sender: Any) {
-        let temp = Dates(date: DateTF.text!, memo: MemoTF.text!, location: LocationTF.text!)
+        let temp = Dates(project: ProjectTF.text!, date: DateTF.text!, memo: MemoTF.text!, location: LocationTF.text!, time: TimeTF.text!)
         DateList.addNewDate(temp)
         dismiss(animated: true, completion: nil)
     }
