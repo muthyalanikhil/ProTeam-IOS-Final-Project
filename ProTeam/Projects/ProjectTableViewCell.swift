@@ -10,7 +10,6 @@ import UIKit
 
 class ProjectTableViewCell: UITableViewCell {
 
-    // called by dequeueReusableCell(withIdentifier)
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .subtitle, reuseIdentifier: reuseIdentifier)
     }

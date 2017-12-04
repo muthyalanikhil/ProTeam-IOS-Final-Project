@@ -9,9 +9,6 @@
 import UIKit
 
 class ContactsTableViewController: UITableViewController {
-
-    @IBAction func addNewContact(segue:UIStoryboardSegue) {
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

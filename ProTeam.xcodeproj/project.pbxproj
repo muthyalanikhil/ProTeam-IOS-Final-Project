@@ -17,7 +17,6 @@
 		3DFAAF1E1FABE43000A69BB7 /* DateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAAF1D1FABE43000A69BB7 /* DateList.swift */; };
 		3DFAAF201FABE49400A69BB7 /* DateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAAF1F1FABE49400A69BB7 /* DateTableViewController.swift */; };
 		3DFC0D2B1F86E6D200687865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC0D2A1F86E6D200687865 /* AppDelegate.swift */; };
-		3DFC0D2D1F86E6D200687865 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC0D2C1F86E6D200687865 /* ProjectsViewController.swift */; };
 		3DFC0D321F86E6D200687865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC0D301F86E6D200687865 /* Main.storyboard */; };
 		3DFC0D341F86E6D200687865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC0D331F86E6D200687865 /* Assets.xcassets */; };
 		3DFC0D371F86E6D200687865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC0D351F86E6D200687865 /* LaunchScreen.storyboard */; };
@@ -44,7 +43,6 @@
 		3DFAAF1F1FABE49400A69BB7 /* DateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewController.swift; sourceTree = "<group>"; };
 		3DFC0D271F86E6D200687865 /* ProTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFC0D2A1F86E6D200687865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DFC0D2C1F86E6D200687865 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		3DFC0D311F86E6D200687865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DFC0D331F86E6D200687865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DFC0D361F86E6D200687865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 				DD5A92441FABDFC00050278D /* ProjectTableViewCell.swift */,
 				511389A01F87ED9F00573D52 /* ProjectModel.swift */,
 				51FB4F821FD4CE7600C1667D /* ProjectList.swift */,
-				3DFC0D2C1F86E6D200687865 /* ProjectsViewController.swift */,
 			);
 			path = Projects;
 			sourceTree = "<group>";
@@ -252,7 +249,6 @@
 				DD546B011FCF372300B9142E /* (null) in Sources */,
 				511389A31F87EE4500573D52 /* DatesModel.swift in Sources */,
 				51FB4F871FD4D06100C1667D /* ProjectDetailsViewController.swift in Sources */,
-				3DFC0D2D1F86E6D200687865 /* ProjectsViewController.swift in Sources */,
 				511389A71F87EE5E00573D52 /* ResponsibilitiesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
