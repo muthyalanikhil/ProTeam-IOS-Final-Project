@@ -60,7 +60,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="0Mk-0v-t6L"/>
                     </view>
                     <navigationItem key="navigationItem" id="EdL-yc-K8R"/>
@@ -204,7 +204,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="AZU-Fy-fhT"/>
                     </view>
                     <connections>
@@ -333,7 +333,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="ZFW-TK-5BE"/>
                     </view>
                     <navigationItem key="navigationItem" id="4p3-4i-YsX"/>
@@ -449,7 +449,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="Sc2-Re-AQ8"/>
                     </view>
                     <connections>
@@ -615,8 +615,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rg-dZ-zcw">
+                                <rect key="frame" x="16" y="448" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Delete Entry"/>
+                                <connections>
+                                    <action selector="DeleteB:" destination="JpQ-sx-675" eventType="touchUpInside" id="XTk-3a-Bjd"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="1dk-5h-Wyx"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZEL-LZ-j5o"/>
@@ -706,7 +714,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="8aU-zs-1x5"/>
                     </view>
                     <connections>

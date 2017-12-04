@@ -17,7 +17,11 @@ class DateInfoViewController: UIViewController {
     @IBOutlet weak var LocationLBL: UILabel!
     @IBOutlet weak var TimeLBL: UILabel!
     
-
+    @IBAction func DeleteB(_ sender: Any) {
+        DateList.removeDate(ProjectLBL.text!)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

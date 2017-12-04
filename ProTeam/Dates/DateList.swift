@@ -28,4 +28,14 @@ class DateList {
     static func addNewDate(_ Da:Dates) -> Void {
         ListOfDates.append(Da)
     }
+    static func removeDate(_ removee:String) -> Void {
+        var count = 0
+        for cont in ListOfDates {
+            if cont.project == removee {
+                ListOfDates.remove(at: count)
+                
+            }
+            count += 1
+        }
+    }
 }
