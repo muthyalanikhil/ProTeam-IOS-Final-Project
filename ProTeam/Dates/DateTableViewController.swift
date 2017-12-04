@@ -38,9 +38,10 @@ class DateTableViewController: UITableViewController {
         return cell
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "newDate" {
         let DateVC = segue.destination as! DateInfoViewController
         DateVC.date = DateList.ListOfDates[(tableView.indexPathForSelectedRow?.row)!]
     }
-    
+    }
 
 }
