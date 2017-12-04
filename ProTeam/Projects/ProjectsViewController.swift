@@ -9,6 +9,7 @@
 import UIKit
 
 class ProjectsViewController: UIViewController {
+    var project:Project!
 
     @IBOutlet weak var tableView: UITableView!
     

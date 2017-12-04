@@ -14,6 +14,10 @@ class SpecificContactViewController: UIViewController {
     @IBOutlet weak var nameLBL: UILabel!
     @IBOutlet weak var phoneLBL: UILabel!
     @IBOutlet weak var emailLBL: UILabel!
+    @IBAction func deleteBTN(_ sender: Any) {
+        ContactsList.removeContact(nameLBL.text!)
+        self.dismiss(animated: true, completion: nil)
+    }
     
     override func viewWillAppear(_ animated: Bool) {
         nameLBL.text = contact.name

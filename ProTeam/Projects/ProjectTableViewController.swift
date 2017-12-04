@@ -35,22 +35,22 @@ class ProjectTableViewController: UITableViewController{
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return CurrentProject.currentProjects.count
+        return ProjectsList.numProjects()
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "project_cell", for: indexPath)
-        let project = CurrentProject.currentProjects[indexPath.row]
+        let project = ProjectsList.projectNum(indexPath.row)
         cell.textLabel?.text = project.name
-        let userCalendar = Calendar.current
-        let projectDate = userCalendar.date(from: project.endDate!)!
-        cell.detailTextLabel?.text = "Due Date: \(projectDate)"
+        let projectDate = project.startDate
+        cell.detailTextLabel?.text = "Start Date: \(projectDate)"
         return cell
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "specific_contact" {
-            let contactVC = segue.destination as! SpecificContactViewController
-            contactVC.contact = ContactsList.contacts[(tableView.indexPathForSelectedRow?.row)!]
+        if segue.identifier == "projects" {
+            let projectVC = segue.destination as! ProjectsViewController
+            projectVC.project = ProjectsList.projects[(tableView.indexPathForSelectedRow?.row)!]
         }
     }
 }

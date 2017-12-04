@@ -29,6 +29,8 @@
 		5143AB3F1F86F1FF00AB941E /* ResponsibilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */; };
 		518D00291FBF91E1006896C0 /* SpecificContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D00281FBF91E1006896C0 /* SpecificContactViewController.swift */; };
 		51FB4F831FD4CE7600C1667D /* ProjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB4F821FD4CE7600C1667D /* ProjectList.swift */; };
+		51FB4F851FD4D04A00C1667D /* AddProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB4F841FD4D04A00C1667D /* AddProjectViewController.swift */; };
+		51FB4F871FD4D06100C1667D /* ProjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB4F861FD4D06100C1667D /* ProjectDetailsViewController.swift */; };
 		DD546AFF1FCF347D00B9142E /* (null) in Sources */ = {isa = PBXBuildFile; };
 		DD546B011FCF372300B9142E /* (null) in Sources */ = {isa = PBXBuildFile; };
 		DD5A92451FABDFC00050278D /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A92441FABDFC00050278D /* ProjectTableViewCell.swift */; };
@@ -58,6 +60,8 @@
 		51C5F6AE1FABE9C50093804F /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		51C5F6B01FABEF8E0093804F /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
 		51FB4F821FD4CE7600C1667D /* ProjectList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectList.swift; sourceTree = "<group>"; };
+		51FB4F841FD4D04A00C1667D /* AddProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddProjectViewController.swift; path = ../../AddProjectViewController.swift; sourceTree = "<group>"; };
+		51FB4F861FD4D06100C1667D /* ProjectDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectDetailsViewController.swift; path = ../../ProjectDetailsViewController.swift; sourceTree = "<group>"; };
 		DD5A92441FABDFC00050278D /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
 		DD5A92461FABE0020050278D /* ProjectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +80,8 @@
 		3D63C9C51FBF986B00410F44 /* Projects */ = {
 			isa = PBXGroup;
 			children = (
+				51FB4F861FD4D06100C1667D /* ProjectDetailsViewController.swift */,
+				51FB4F841FD4D04A00C1667D /* AddProjectViewController.swift */,
 				DD5A92461FABE0020050278D /* ProjectTableViewController.swift */,
 				DD5A92441FABDFC00050278D /* ProjectTableViewCell.swift */,
 				511389A01F87ED9F00573D52 /* ProjectModel.swift */,
@@ -237,6 +243,7 @@
 				3DFAAF1E1FABE43000A69BB7 /* DateList.swift in Sources */,
 				5143AB3F1F86F1FF00AB941E /* ResponsibilitiesViewController.swift in Sources */,
 				518D00291FBF91E1006896C0 /* SpecificContactViewController.swift in Sources */,
+				51FB4F851FD4D04A00C1667D /* AddProjectViewController.swift in Sources */,
 				51FB4F831FD4CE7600C1667D /* ProjectList.swift in Sources */,
 				3D63C9CB1FBF9A8600410F44 /* DateInfoViewController.swift in Sources */,
 				3DFAAF1A1FABDF1600A69BB7 /* AddDateViewController.swift in Sources */,
@@ -244,6 +251,7 @@
 				DD5A92451FABDFC00050278D /* ProjectTableViewCell.swift in Sources */,
 				DD546B011FCF372300B9142E /* (null) in Sources */,
 				511389A31F87EE4500573D52 /* DatesModel.swift in Sources */,
+				51FB4F871FD4D06100C1667D /* ProjectDetailsViewController.swift in Sources */,
 				3DFC0D2D1F86E6D200687865 /* ProjectsViewController.swift in Sources */,
 				511389A71F87EE5E00573D52 /* ResponsibilitiesModel.swift in Sources */,
 			);

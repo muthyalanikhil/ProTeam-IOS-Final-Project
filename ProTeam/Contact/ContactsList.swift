@@ -22,4 +22,14 @@ class ContactsList {
     static func addNewContact(_ cont:Contact) -> Void {
         contacts.append(cont)
     }
+    
+    static func removeContact(_ removee:String) -> Void {
+        var count = 0
+        for cont in contacts {
+            if cont.name == removee {
+                contacts.remove(at: count)
+            }
+            count += 1
+        }
+    }
 }

@@ -43,9 +43,9 @@ class ContactsTableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "projects" {
-            let projectVC = segue.destination as! ProjectsViewController
-            projectVC.project = ContactsList.contacts[(tableView.indexPathForSelectedRow?.row)!]
+        if segue.identifier == "specific_contact" {
+            let contactVC = segue.destination as! SpecificContactViewController
+            contactVC.contact = ContactsList.contacts[(tableView.indexPathForSelectedRow?.row)!]
         }
     }
 }

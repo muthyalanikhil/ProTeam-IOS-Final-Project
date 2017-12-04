@@ -175,6 +175,7 @@
                                 <connections>
                                     <action selector="Cancel:" destination="VIV-1V-qAM" eventType="touchUpInside" id="kQv-f7-RIo"/>
                                     <action selector="cancel:" destination="wq0-K9-ZeL" eventType="touchUpInside" id="gHs-yD-sW0"/>
+                                    <action selector="cancelBTN:" destination="wq0-K9-ZeL" eventType="touchUpInside" id="ef8-eM-Z1g"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SwW-Gv-uFq">
@@ -184,6 +185,7 @@
                                 <connections>
                                     <action selector="Done:" destination="VIV-1V-qAM" eventType="touchUpInside" id="5cL-SE-FLR"/>
                                     <action selector="done:" destination="wq0-K9-ZeL" eventType="touchUpInside" id="QTk-rc-9Ci"/>
+                                    <action selector="doneBTN:" destination="wq0-K9-ZeL" eventType="touchUpInside" id="K3Q-r6-S3q"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2L-hS-TjQ">
@@ -204,6 +206,11 @@
                         <color key="backgroundColor" red="0.81325970130742931" green="0.90589606082647345" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="AZU-Fy-fhT"/>
                     </view>
+                    <connections>
+                        <outlet property="dateTF" destination="Zpu-y6-Yg9" id="gLQ-8C-rD9"/>
+                        <outlet property="descTF" destination="JiP-Y7-iMH" id="Oca-2e-AaQ"/>
+                        <outlet property="nameTF" destination="GSS-e2-J33" id="oqh-ti-gBE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gti-eZ-zre" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -320,6 +327,9 @@
                                 <rect key="frame" x="16" y="507" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Delete Entry"/>
+                                <connections>
+                                    <action selector="deleteBTN:" destination="Ttd-hJ-4nf" eventType="touchUpInside" id="7uV-Px-658"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.44776016330338053" green="0.76235945610167932" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
