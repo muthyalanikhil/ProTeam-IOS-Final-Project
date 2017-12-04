@@ -60,7 +60,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="0Mk-0v-t6L"/>
                     </view>
                     <navigationItem key="navigationItem" id="EdL-yc-K8R"/>
