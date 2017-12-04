@@ -31,6 +31,5 @@ class SpecificContactViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
-    
-    
+
 }

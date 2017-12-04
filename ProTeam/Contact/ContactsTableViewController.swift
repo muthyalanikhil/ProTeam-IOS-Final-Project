@@ -10,6 +10,9 @@ import UIKit
 
 class ContactsTableViewController: UITableViewController {
 
+    @IBAction func addNewContact(segue:UIStoryboardSegue) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -40,7 +43,9 @@ class ContactsTableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let contactVC = segue.destination as! SpecificContactViewController
-        contactVC.contact = ContactsList.contacts[(tableView.indexPathForSelectedRow?.row)!]
+        if segue.identifier == "projects" {
+            let projectVC = segue.destination as! ProjectsViewController
+            projectVC.project = ContactsList.contacts[(tableView.indexPathForSelectedRow?.row)!]
+        }
     }
 }

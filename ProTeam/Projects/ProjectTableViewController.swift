@@ -47,4 +47,10 @@ class ProjectTableViewController: UITableViewController{
         cell.detailTextLabel?.text = "Due Date: \(projectDate)"
         return cell
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "specific_contact" {
+            let contactVC = segue.destination as! SpecificContactViewController
+            contactVC.contact = ContactsList.contacts[(tableView.indexPathForSelectedRow?.row)!]
+        }
+    }
 }
