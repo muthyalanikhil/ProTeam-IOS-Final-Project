@@ -9,7 +9,7 @@
 import UIKit
     
 class NewContactViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
-    
+    // These allows the user to add new contacts we have the conacel and done buttons but also added a picker view, so you can associate the contact with what project they are working on with you.
     @IBOutlet weak var nameTF: UITextField!
     @IBOutlet weak var emailTF: UITextField!
     @IBOutlet weak var pNumTF: UITextField!
@@ -35,7 +35,7 @@ class NewContactViewController: UIViewController, UIPickerViewDelegate, UIPicker
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
-    
+    // jesse's crowning moments with the creation of the picker view
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return ProjectsList.projects[row].name
     }

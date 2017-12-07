@@ -28,7 +28,7 @@ class DateTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return DateList.numDates()
     }
-    
+    // sets up the table of dates
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Date_cell", for: indexPath)
         let Date = DateList.DateNum(indexPath.row)
@@ -37,6 +37,7 @@ class DateTableViewController: UITableViewController {
 
         return cell
     }
+    // brings user to info about dates when clicking on one of the cells
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "newDate" {
         let DateVC = segue.destination as! DateInfoViewController

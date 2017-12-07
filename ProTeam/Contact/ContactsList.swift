@@ -9,6 +9,7 @@
 import Foundation
 
 class ContactsList {
+    // we made some example contacts to show of the app
     static var contacts:[Contact] = [
         Contact(name: "Jesse Meier", PhoneNumber: "660-528-6971", email: "s518807@nwmissouri.com", projIn: "iOS Application"),
         Contact(name: "Blake Picklo", PhoneNumber: "660-582-4514", email: "s578433@nwmissouri.edu", projIn: "iOS Application"),
@@ -25,7 +26,7 @@ class ContactsList {
     static func addNewContact(_ cont:Contact) -> Void {
         contacts.append(cont)
     }
-    
+    // we added the ability to remove the contact after you click on it.
     static func removeContact(_ removee:String) -> Void {
         var count = 0
         for cont in contacts {

@@ -14,9 +14,11 @@ class AddProjectViewController: UIViewController {
     @IBOutlet weak var dateTF: UITextField!
     @IBOutlet weak var descTF: UITextField!
     let membersIn:[String] = []
+    // cancel button
     @IBAction func cancelBTN(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
+    // Done button
     @IBAction func doneBTN(_ sender: Any) {
         let temp = Project(name: nameTF.text!, startDate: dateTF.text!, desc: descTF.text!, members:membersIn)
         ProjectsList.addNewProject(temp)
@@ -25,24 +27,10 @@ class AddProjectViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

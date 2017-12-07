@@ -9,6 +9,7 @@
 import Foundation
 
 class Contact {
+    // This is our model of the contacts, every contact have to have these variables.
     var name:String
     var PhoneNumber:String
     var email:String

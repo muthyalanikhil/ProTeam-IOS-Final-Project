@@ -16,7 +16,7 @@ class DateInfoViewController: UIViewController {
     @IBOutlet weak var MemoLBL: UILabel!
     @IBOutlet weak var LocationLBL: UILabel!
     @IBOutlet weak var TimeLBL: UILabel!
-    
+    // the delete button for the dates
     @IBAction func DeleteB(_ sender: Any) {
         DateList.removeDate(ProjectLBL.text!)
         self.dismiss(animated: true, completion: nil)
@@ -24,9 +24,8 @@ class DateInfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
+    // this displays the data about the dates in the spots of these labels
     override func viewWillAppear(_ animated: Bool) {
         ProjectLBL.text! = date.project
         DateLBL.text! = date.date
@@ -36,18 +35,6 @@ class DateInfoViewController: UIViewController {
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

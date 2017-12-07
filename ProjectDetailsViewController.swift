@@ -10,13 +10,13 @@ import UIKit
 
 class ProjectDetailsViewController: UIViewController {
     var project:Project!
-
+    
     @IBOutlet weak var nameLBL: UILabel!
     @IBOutlet weak var dateLBL: UILabel!
     @IBOutlet weak var descLBL: UILabel!
     @IBOutlet weak var membersLBL: UILabel!
     var str:String = ""
-    
+    // displays all of the project info in the place of the correct labels
     override func viewWillAppear(_ animated: Bool) {
         nameLBL.text = project.name
         dateLBL.text = project.dueDate

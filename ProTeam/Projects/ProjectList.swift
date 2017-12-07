@@ -8,6 +8,7 @@
 import Foundation
 
 class ProjectsList {
+    // some example projects for the project.. thats kinda meta
     static var projects:[Project] = [
         Project(name: "iOS Project", startDate: "August 1, 2017", desc: "Group Project Manager Application", members:["Blake Picklo", "Jesse Meier", "Nikhil Muthyala"]),
         Project(name: "Project Management", startDate: "September 2, 2017", desc: "Create your own business and generate sample data for it", members:["Linus Tena", "Reino Catharina", "Rajkumari Brónach"]),

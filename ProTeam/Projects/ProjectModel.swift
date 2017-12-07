@@ -10,7 +10,7 @@
 import Foundation
 import CoreLocation
 import UIKit
-
+// all elements that go into project 
 class Project {
     var name:String
     var dueDate:String

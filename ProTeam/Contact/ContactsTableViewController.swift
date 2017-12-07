@@ -9,7 +9,7 @@
 import UIKit
 
 class ContactsTableViewController: UITableViewController {
-    
+    // We added a table view for the contacts which each cell list the name phonenumber and email of the contacts
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -29,7 +29,7 @@ class ContactsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return ContactsList.numContacts()
     }
-    
+    // This bit makes the cell desplay with the correct info
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "contact_list", for: indexPath)
         let contact = ContactsList.contactNum(indexPath.row)
@@ -38,7 +38,7 @@ class ContactsTableViewController: UITableViewController {
 
         return cell
     }
-    
+    // this is called when the user clicks on one of the cells
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "specific_contact" {
             let contactVC = segue.destination as! SpecificContactViewController

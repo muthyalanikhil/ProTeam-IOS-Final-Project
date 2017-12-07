@@ -9,7 +9,7 @@
 import UIKit
 
 class ContactsTableViewCell: UITableViewCell {
-
+// just used for cells
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .subtitle, reuseIdentifier: reuseIdentifier)
     }

@@ -16,7 +16,7 @@ class AddDateViewController: UIViewController {
     @IBOutlet weak var LocationTF: UITextField!
     @IBOutlet weak var TimeTF: UITextField!
     
-    
+    // this is the view for adding new dates we added a cancel and done button like the other add views.
     
     @IBAction func Cancel(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
@@ -28,13 +28,10 @@ class AddDateViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
 

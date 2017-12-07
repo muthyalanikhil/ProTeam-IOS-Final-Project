@@ -10,7 +10,7 @@ import UIKit
 
 class SpecificContactViewController: UIViewController {
     var contact:Contact!
-
+// In this we listed out the details of the contact using the three labels and added a done and cancel button, also added functionality so the info shows up when the view opens up.
     @IBOutlet weak var nameLBL: UILabel!
     @IBOutlet weak var phoneLBL: UILabel!
     @IBOutlet weak var emailLBL: UILabel!

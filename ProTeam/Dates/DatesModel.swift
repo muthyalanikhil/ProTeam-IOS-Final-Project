@@ -9,6 +9,7 @@
 import Foundation
 
 class Dates {
+    // All the elements for all the dates
     var project: String
     var date: String
     var memo: String

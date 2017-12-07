@@ -9,7 +9,7 @@
 import Foundation
 
 class DateList {
-    
+    // sample data for the dates
     static var ListOfDates:[Dates] = [
         Dates(project: "Pro Team", date: "9/15/2017",memo:"Lets make this pro team",location:"Colden Hall", time: "8:00 am"),
         Dates(project: "English Homework", date: "9/29/2017",memo:"dig a hole",location:"Library", time: "10:00 am"),
@@ -18,7 +18,7 @@ class DateList {
         Dates(project: "Art Project", date: "11/2/2017",memo:"getting somewhere",location:"Computer Lab", time: "4:20 pm")
     ]
     
-    
+    // added ability to remove a date as well
     static func numDates()-> Int {
         return ListOfDates.count
     }

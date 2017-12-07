@@ -21,15 +21,14 @@ class ProjectTableViewController: UITableViewController{
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-    
+        // sets up size of table
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return ProjectsList.numProjects()
     }
-    
+    // show date about project in the cells such as name and due date
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "project_cell", for: indexPath)
         let project = ProjectsList.projectNum(indexPath.row)
@@ -38,7 +37,7 @@ class ProjectTableViewController: UITableViewController{
         
         return cell
     }
-    
+    // lets user go to specific info page after clicking on cell
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "project_detail" {
             let projectVC = segue.destination as! ProjectDetailsViewController
