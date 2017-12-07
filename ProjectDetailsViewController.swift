@@ -21,10 +21,12 @@ class ProjectDetailsViewController: UIViewController {
         nameLBL.text = project.name
         dateLBL.text = project.dueDate
         descLBL.text = project.desc
+        str = ""
         for mem in project.members {
             str = str + mem + "\n"
         }
         membersLBL.text = str
+
     }
     
     override func viewDidLoad() {

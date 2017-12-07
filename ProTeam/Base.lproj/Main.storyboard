@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -795,7 +795,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2b-hr-o2D">
-                                <rect key="frame" x="16" y="255" width="156" height="21"/>
+                                <rect key="frame" x="16" y="255" width="140" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="S0b-aN-5ZD"/>
                                 </constraints>
@@ -813,9 +813,9 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PKs-zm-3MA">
-                                <rect key="frame" x="182" y="250" width="181" height="30"/>
+                                <rect key="frame" x="166" y="250" width="197" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="181" id="nsk-LR-vB7"/>
+                                    <constraint firstAttribute="width" constant="197" id="nsk-LR-vB7"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -876,7 +876,6 @@
                             <constraint firstItem="QaW-i3-3pB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="CX4-9E-oHe" secondAttribute="leading" constant="20" symbolic="YES" id="JQF-Rg-hEm"/>
                             <constraint firstItem="26V-JJ-lD2" firstAttribute="top" secondItem="8aU-zs-1x5" secondAttribute="top" constant="50" id="N1R-eC-OQv"/>
                             <constraint firstItem="D11-r0-1i4" firstAttribute="top" secondItem="8aU-zs-1x5" secondAttribute="top" constant="45" id="Pwl-Uj-aHg"/>
-                            <constraint firstItem="PKs-zm-3MA" firstAttribute="leading" secondItem="n2b-hr-o2D" secondAttribute="trailing" constant="10" id="TJq-Lb-qye"/>
                             <constraint firstItem="8aU-zs-1x5" firstAttribute="trailing" secondItem="KdP-Mh-9EK" secondAttribute="trailing" constant="16" id="UuZ-me-4C9"/>
                             <constraint firstItem="QaW-i3-3pB" firstAttribute="top" secondItem="1NA-4J-qiA" secondAttribute="bottom" constant="95" id="WK0-FQ-sYV"/>
                             <constraint firstItem="8aU-zs-1x5" firstAttribute="trailing" secondItem="D11-r0-1i4" secondAttribute="trailing" constant="16" id="YgD-hR-rH0"/>
@@ -889,7 +888,9 @@
                             <constraint firstItem="1NA-4J-qiA" firstAttribute="top" secondItem="n2b-hr-o2D" secondAttribute="bottom" constant="49" id="lvO-jH-VaM"/>
                             <constraint firstItem="n2b-hr-o2D" firstAttribute="top" secondItem="A82-vC-CHq" secondAttribute="bottom" constant="72" id="mHc-Dr-j27"/>
                             <constraint firstItem="A82-vC-CHq" firstAttribute="leading" secondItem="8aU-zs-1x5" secondAttribute="leading" constant="16" id="mcV-Me-FKf"/>
-                            <constraint firstItem="n2b-hr-o2D" firstAttribute="leading" secondItem="8aU-zs-1x5" secondAttribute="leading" constant="16" id="rdo-WL-Hg2"/>
+                            <constraint firstItem="n2b-hr-o2D" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8aU-zs-1x5" secondAttribute="leading" symbolic="YES" id="rdo-WL-Hg2"/>
+                            <constraint firstItem="PKs-zm-3MA" firstAttribute="leading" secondItem="n2b-hr-o2D" secondAttribute="trailing" constant="10" id="saQ-Ck-FDc"/>
+                            <constraint firstAttribute="trailing" secondItem="n2b-hr-o2D" secondAttribute="trailing" constant="219" id="w8q-FE-2wV"/>
                             <constraint firstItem="1NA-4J-qiA" firstAttribute="leading" secondItem="8aU-zs-1x5" secondAttribute="leading" constant="16" id="z42-dR-U2K"/>
                             <constraint firstItem="1NA-4J-qiA" firstAttribute="top" secondItem="PKs-zm-3MA" secondAttribute="bottom" constant="45" id="zbk-pG-YjR"/>
                         </constraints>
