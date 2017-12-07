@@ -32,8 +32,8 @@ class DateTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Date_cell", for: indexPath)
         let Date = DateList.DateNum(indexPath.row)
-        cell.textLabel?.text = Date.project
-        cell.detailTextLabel?.text = Date.date
+        cell.textLabel?.text = "Name of Reminder: \(Date.project)"
+        cell.detailTextLabel?.text = "Date: \(Date.date)"
 
         return cell
     }

@@ -15,6 +15,10 @@ class ProjectDetailsViewController: UIViewController {
     @IBOutlet weak var dateLBL: UILabel!
     @IBOutlet weak var descLBL: UILabel!
     @IBOutlet weak var membersLBL: UILabel!
+    @IBAction func deleteBTN(_ sender: Any) {
+        ProjectsList.removeProject(nameLBL.text!)
+        self.dismiss(animated: true, completion: nil)
+    }
     var str:String = ""
     // displays all of the project info in the place of the correct labels
     override func viewWillAppear(_ animated: Bool) {
