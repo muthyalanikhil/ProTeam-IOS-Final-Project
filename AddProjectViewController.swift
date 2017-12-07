@@ -13,11 +13,12 @@ class AddProjectViewController: UIViewController {
     @IBOutlet weak var nameTF: UITextField!
     @IBOutlet weak var dateTF: UITextField!
     @IBOutlet weak var descTF: UITextField!
+    let membersIn:[String] = []
     @IBAction func cancelBTN(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
     @IBAction func doneBTN(_ sender: Any) {
-        let temp = Project(name: nameTF.text!, startDate: dateTF.text!, desc: descTF.text!)
+        let temp = Project(name: nameTF.text!, startDate: dateTF.text!, desc: descTF.text!, members:membersIn)
         ProjectsList.addNewProject(temp)
         self.dismiss(animated: true, completion: nil)
     }

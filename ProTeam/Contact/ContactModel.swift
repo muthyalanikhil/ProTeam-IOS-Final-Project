@@ -12,9 +12,11 @@ class Contact {
     var name:String
     var PhoneNumber:String
     var email:String
-    init(name:String,PhoneNumber:String,email:String){
+    var projIn:String
+    init(name:String,PhoneNumber:String,email:String,projIn:String){
         self.name = name
         self.PhoneNumber = PhoneNumber
         self.email = email
+        self.projIn = projIn
     }
 }

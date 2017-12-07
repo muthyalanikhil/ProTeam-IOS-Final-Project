@@ -9,11 +9,11 @@
 import UIKit
 
 class ProjectTableViewController: UITableViewController{
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     override func viewWillAppear(_ animated:Bool){
         tableView.reloadData()
     }
@@ -29,12 +29,12 @@ class ProjectTableViewController: UITableViewController{
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return ProjectsList.numProjects()
     }
-
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "project_cell", for: indexPath)
         let project = ProjectsList.projectNum(indexPath.row)
         cell.textLabel?.text = project.name
-        cell.detailTextLabel?.text = "Start Date: \(project.startDate)"
+        cell.detailTextLabel?.text = "Due Date: \(project.dueDate)"
         
         return cell
     }

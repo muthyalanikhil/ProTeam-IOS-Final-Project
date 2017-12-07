@@ -23,9 +23,7 @@
 		511389A11F87ED9F00573D52 /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A01F87ED9F00573D52 /* ProjectModel.swift */; };
 		511389A31F87EE4500573D52 /* DatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A21F87EE4500573D52 /* DatesModel.swift */; };
 		511389A51F87EE5200573D52 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A41F87EE5200573D52 /* ContactModel.swift */; };
-		511389A71F87EE5E00573D52 /* ResponsibilitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */; };
 		5143AB3D1F86F1A900AB941E /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB3C1F86F1A900AB941E /* NewContactViewController.swift */; };
-		5143AB3F1F86F1FF00AB941E /* ResponsibilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */; };
 		518D00291FBF91E1006896C0 /* SpecificContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D00281FBF91E1006896C0 /* SpecificContactViewController.swift */; };
 		51FB4F831FD4CE7600C1667D /* ProjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB4F821FD4CE7600C1667D /* ProjectList.swift */; };
 		51FB4F851FD4D04A00C1667D /* AddProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB4F841FD4D04A00C1667D /* AddProjectViewController.swift */; };
@@ -50,9 +48,7 @@
 		511389A01F87ED9F00573D52 /* ProjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
 		511389A21F87EE4500573D52 /* DatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesModel.swift; sourceTree = "<group>"; };
 		511389A41F87EE5200573D52 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
-		511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsibilitiesModel.swift; sourceTree = "<group>"; };
 		5143AB3C1F86F1A900AB941E /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
-		5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsibilitiesViewController.swift; sourceTree = "<group>"; };
 		518D00281FBF91E1006896C0 /* SpecificContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificContactViewController.swift; sourceTree = "<group>"; };
 		51C5F6AA1FABE8590093804F /* ContactsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsList.swift; sourceTree = "<group>"; };
 		51C5F6AE1FABE9C50093804F /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
@@ -114,15 +110,6 @@
 			path = Contact;
 			sourceTree = "<group>";
 		};
-		3D63C9C91FBF998100410F44 /* Respons */ = {
-			isa = PBXGroup;
-			children = (
-				511389A61F87EE5E00573D52 /* ResponsibilitiesModel.swift */,
-				5143AB3E1F86F1FF00AB941E /* ResponsibilitiesViewController.swift */,
-			);
-			path = Respons;
-			sourceTree = "<group>";
-		};
 		3DFC0D1E1F86E6D200687865 = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +129,6 @@
 		3DFC0D291F86E6D200687865 /* ProTeam */ = {
 			isa = PBXGroup;
 			children = (
-				3D63C9C91FBF998100410F44 /* Respons */,
 				3D63C9C81FBF993300410F44 /* Contact */,
 				3D63C9C61FBF98E200410F44 /* Dates */,
 				3D63C9C51FBF986B00410F44 /* Projects */,
@@ -238,7 +224,6 @@
 				3DFAAF1C1FABE0E100A69BB7 /* DateTableViewCell.swift in Sources */,
 				511389A11F87ED9F00573D52 /* ProjectModel.swift in Sources */,
 				3DFAAF1E1FABE43000A69BB7 /* DateList.swift in Sources */,
-				5143AB3F1F86F1FF00AB941E /* ResponsibilitiesViewController.swift in Sources */,
 				518D00291FBF91E1006896C0 /* SpecificContactViewController.swift in Sources */,
 				51FB4F851FD4D04A00C1667D /* AddProjectViewController.swift in Sources */,
 				51FB4F831FD4CE7600C1667D /* ProjectList.swift in Sources */,
@@ -249,7 +234,6 @@
 				DD546B011FCF372300B9142E /* (null) in Sources */,
 				511389A31F87EE4500573D52 /* DatesModel.swift in Sources */,
 				51FB4F871FD4D06100C1667D /* ProjectDetailsViewController.swift in Sources */,
-				511389A71F87EE5E00573D52 /* ResponsibilitiesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

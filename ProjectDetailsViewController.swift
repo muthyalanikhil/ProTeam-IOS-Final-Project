@@ -17,7 +17,7 @@ class ProjectDetailsViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         nameLBL.text = project.name
-        dateLBL.text = project.startDate
+        dateLBL.text = project.dueDate
         descLBL.text = project.desc
     }
     

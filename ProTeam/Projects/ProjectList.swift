@@ -9,11 +9,11 @@ import Foundation
 
 class ProjectsList {
     static var projects:[Project] = [
-        Project(name: "IOS - Project", startDate: "August 1, 2017", desc: "test"),
-        Project(name: "Project Management", startDate: "September 2, 2017", desc: "test2"),
-        Project(name: "NWMSU", startDate: "October 3, 2017", desc: "test2"),
-        Project(name: "Check Please", startDate: "November 4, 2017", desc: "test4"),
-        Project(name: "Missouri Birders App", startDate: "December 5, 2017", desc: "test 5")]
+        Project(name: "IOS - Project", startDate: "August 1, 2017", desc: "test", members:["Blake Picklo", "Jesse Meier"]),
+        Project(name: "Project Management", startDate: "September 2, 2017", desc: "test2", members:[]),
+        Project(name: "NWMSU", startDate: "October 3, 2017", desc: "test2", members:[]),
+        Project(name: "Check Please", startDate: "November 4, 2017", desc: "test4", members:[]),
+        Project(name: "Missouri Birders App", startDate: "December 5, 2017", desc: "test 5", members:[])]
     
     static func numProjects() -> Int {
         return projects.count

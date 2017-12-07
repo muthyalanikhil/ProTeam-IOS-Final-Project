@@ -13,13 +13,16 @@ import UIKit
 
 class Project {
     var name:String
-    var startDate:String
+    var dueDate:String
     var desc:String
+    var members:[String]
     
-    init(name:String, startDate:String, desc:String){
+    init(name:String, startDate:String, desc:String, members:[String]){
         self.name = name
-        self.startDate = startDate
+        self.dueDate = startDate
         self.desc = desc
+        self.members = members
     }
 }
+
 
