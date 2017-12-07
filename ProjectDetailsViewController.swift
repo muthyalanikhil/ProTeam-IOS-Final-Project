@@ -14,11 +14,17 @@ class ProjectDetailsViewController: UIViewController {
     @IBOutlet weak var nameLBL: UILabel!
     @IBOutlet weak var dateLBL: UILabel!
     @IBOutlet weak var descLBL: UILabel!
+    @IBOutlet weak var membersLBL: UILabel!
+    var str:String = ""
     
     override func viewWillAppear(_ animated: Bool) {
         nameLBL.text = project.name
         dateLBL.text = project.dueDate
         descLBL.text = project.desc
+        for mem in project.members {
+            str = str + mem + "\n"
+        }
+        membersLBL.text = str
     }
     
     override func viewDidLoad() {

@@ -9,7 +9,7 @@ import Foundation
 
 class ProjectsList {
     static var projects:[Project] = [
-        Project(name: "IOS - Project", startDate: "August 1, 2017", desc: "test", members:["Blake Picklo", "Jesse Meier"]),
+        Project(name: "IOS - Project", startDate: "August 1, 2017", desc: "Group Project Manager Application", members:["Blake Picklo", "Jesse Meier", "Nikhil Muthyala"]),
         Project(name: "Project Management", startDate: "September 2, 2017", desc: "test2", members:[]),
         Project(name: "NWMSU", startDate: "October 3, 2017", desc: "test2", members:[]),
         Project(name: "Check Please", startDate: "November 4, 2017", desc: "test4", members:[]),

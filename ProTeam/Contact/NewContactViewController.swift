@@ -14,14 +14,22 @@ import UIKit
         @IBOutlet weak var emailTF: UITextField!
         @IBOutlet weak var pNumTF: UITextField!
         var ProjectIn:String = ""
+        
         @IBAction func cancelBTN(_ sender: Any) {
             self.dismiss(animated: true, completion: nil)
         }
+        
         @IBAction func DoneBTN(_ sender: Any) {
             let temp = Contact(name: nameTF.text!, PhoneNumber: pNumTF.text!, email: emailTF.text!, projIn:ProjectIn)
+            for project in ProjectsList.projects {
+                if project.name == ProjectIn {
+                    project.members.append(nameTF.text!)
+                }
+            }
             ContactsList.addNewContact(temp)
             self.dismiss(animated: true, completion: nil)
         }
+        
         @IBOutlet weak var projectPicker: UIPickerView!
         
         func numberOfComponents(in pickerView: UIPickerView) -> Int {
